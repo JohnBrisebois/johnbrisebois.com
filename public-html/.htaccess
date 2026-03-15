@@ -1,7 +1,15 @@
 RewriteEngine On
 
+# 1️⃣ Pretty URLs: serve .html files if they exist
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html [L]
 
+# 2️⃣ SPA fallback: serve index.html if file/directory doesn't exist
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
+
+# Optional: redirect /file.html -> /file (for canonical URLs)
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?]
 RewriteRule ^ /%1 [R=301,L]
