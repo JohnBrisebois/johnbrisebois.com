@@ -1,0 +1,64 @@
+{
+    "paths": {
+        "html": "images/",
+        "pixi": "sprites/thumbnails/"
+    },
+    "projects": [
+        {
+            "id": 0,
+            "title": "Mordhau Macro",
+            "description": "Visualization tool for the online multiplayer game Mordhau that enables coaches to communicate positional strategies with players. Try it out!",
+            "src": "thumb_mord",
+            "link": "https://johnjonathonson.github.io/"
+        },
+        {
+            "id": 7,
+            "title": "C++ Neural Network",
+            "description": "Customizable neural network made with C and C++.  Set up to detect numbers but can be trained on any data.  ",
+            "src": "thumb_nn",
+            "link": "https://github.com/JohnBrisebois/neural-network-with-opencl-and-cpp"
+        },
+        {
+            "id": 6,
+            "title": "Johnbot 3000",
+            "description": "Granite powered LLM that answers questions about me.  Backend runs in docker and is hosted on my website.",
+            "src": "thumb_chatbot",
+            "link": "https://github.com/JohnBrisebois/llm-backend"
+        },
+        {
+            "id": 1,
+            "title": "Assembly Runner",
+            "description": "MIPS Assembly Language based side-scroller video game with keyboard inputs and pixel display.",
+            "src": "thumb_assembly",
+            "link": "https://github.com/JohnBrisebois/assembly-runner"
+        },
+        {
+            "id": 2,
+            "title": "Clue Board Game",
+            "description": "A turn based multiplayer online board game that uses Google Firebase backend services to store game states and allow for communication.",
+            "src": "thumb_clue",
+            "link": "https://github.com/JohnBrisebois/CLUE-The-Great-Museum-Caper"
+        },
+        {
+            "id": 3,
+            "title": "Stock Search",
+            "description": "Flask based website that allows users to search stock performance through the Tiingo API.",
+            "src": "thumb_stock",
+            "link": "https://github.com/JohnBrisebois/stock-search"
+        },
+        {
+            "id": 4,
+            "title": "Team Tool",
+            "description": "Helpful organization tool for competitive organizers that keeps track of teams' performance in a number of sports and games.",
+            "src": "thumb_tool",
+            "link": "https://github.com/JohnBrisebois/TeamTool"
+        },
+        {
+            "id": 5,
+            "title": "Mini OS",
+            "description": "Operating system bootloader and kernal that reads input from the keyboard while waiting for commands.",
+            "src": "thumb_os",
+            "link": "https://github.com/JohnBrisebois/mini-OS-project"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "header": {
+        "name": "John Brisebois"
+        
+    },
+    "education": [
+        {
+            "name": "CALIFORNIA STATE UNIVERSITY, EAST BAY",
+            "degree": "Bachelor of Scienc, Computer Science",
+            "status": "Honors: Cum Laude, 3.9 CSUEB GPA"
+        },
+        {
+            "name": "SAN JOSE STATE UNIVERSITY",
+            "degree": "Master of Science, Computer Science",
+            "status": "In Progress, Expected Graduation 2027"
+        }
+    ],
+    "skills": {
+        "LANGUAGES": "JavaScript, C, C++, C#, Java, Python, JSON, SQL, TypeScript, React, Bash, Shell Script",
+        "FRAMEWORKS": "Flask, Firebase, Websockets",
+        "UI": "HTML, CSS, Windows Forms, React",
+        "TOOLING": "Git, GitHub, AWS (EC2, Elastic Beanstalk, DynamoDB, S3, CDK, SDK), Docker, Debian Linux, NGINX, Apache"
+    },
+    "jobs": [
+        {
+            "company": "Cedar Fair",
+            "title": "Warehouse Operations Supervisor",
+            "dates": "2015-2024",
+            "responsibilities": [
+                "Supervise the shipping and receiving of food related goods",
+                "Communicate with vendors to establish order quantities and delivery times",
+                "Authorize over $1M in orders annually",
+                "Manage the logistics of keeping locations stocked",
+                "Create and manage schedules for warehouse attendants",
+                "Oversee inventory counts"
+            ]
+        }
+    ],
+    "description": "Passionate about creating software that solves real world problems.  Experience working in a team environment towards a common goal.  In my personal projects, I always try to find the most streamlined process to make deployments and adjustments more simple, such as through the use of Docker and Git in my home server.  Open to relocation within the US, both on site and remote."
+}
